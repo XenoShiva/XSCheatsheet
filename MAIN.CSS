@@ -1,0 +1,221 @@
+html {
+    background-image: linear-gradient(to right, aqua , rgb(0, 136, 255));
+}
+
+
+/* NAVBAR */
+
+
+div.topnav {
+    background-color: aqua;
+    width: 98.3%;
+    text-align: center;
+    top: 0%;
+    margin-left: auto;
+    margin-right: 4px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    position: fixed;
+    z-index: 10;
+    overflow: hidden;
+}
+
+ul#navlist {
+    display: inline-block;
+    text-align: center;
+}
+
+#navbar {
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 0px 10px;
+    padding: 5px 5px;
+}
+
+#navbar:hover {
+    background-color: rgb(0, 136, 255);
+    font-size: large;
+    color: aqua;
+}
+
+
+/* GENERAL */
+
+div#tablesanchor, div#hoveranchor, div#media-anchor, div#linksanchor, div#fontsanchor,div#tagsanchor {
+    float: left;
+    width: 100%;
+    height: 1px;
+    margin-top: -18px;
+}
+
+
+
+h1 {
+    background-color: aqua;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Lobster", sans-serif;
+}
+
+h3 {
+    font-family: "Lobster", sans-serif;
+    width: 100%;
+    margin-top: 50px;
+    background-color: aqua;
+    text-align: center;
+}
+
+div.intro {
+    text-align: center;
+}
+
+ol {
+    list-style-position: inside;    
+    text-align: center;
+}
+
+ul#linklist {
+    list-style-position: inside;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+/* TABLE SECTION */
+
+th#studyhead {
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+    }
+
+th#workhead {
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+td {
+    background-color: aqua;
+}
+
+table.study, table.twork {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HOVER SECTION */
+
+div#hover1 {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#hover2 {
+    border: 2px solid aqua;
+    padding: 5px;
+}
+
+#hover2:hover {
+    background-color: aqua;
+    font-size: x-large;
+    color: rgb(0, 136, 255);
+}
+
+
+/* MEDIA SECTION */
+
+
+img#pepe {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+#pepelink {
+    max-width: 60%;
+    max-height: 60%;
+    display: block;
+    margin: auto;
+}
+
+#pepesclink {
+    text-align: center;
+    margin-left: 5px;
+}
+#pepesclink1 {
+    text-align: center;
+    margin-left: 40%;
+}
+
+#yt {
+    display: block;
+    margin: auto;
+}
+
+#sc {
+    display: block;
+    margin: auto;
+}
+
+#audiolink {
+    display: block;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* FONT SECTION */
+
+#fontinsert, #font1 {
+    font-family: "Permanent Marker", cursive, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#font2 {
+    font-family: "Agu Display", serif;
+    font-size: large;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+}
+
+#font3 {
+    font-family: "Domine", serif;
+    font-size: larger;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+th#htmltagshead {
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+}
