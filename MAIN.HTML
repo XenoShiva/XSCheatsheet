@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>CHEATSHEET</title>
+    <link href="resources/css/CHEATSHEET.CSS" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Space+Mono:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Permanent+Marker&family=Space+Mono:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Domine:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+    <!--NAVBAR-->
+
+<div class="topnav">
+    <nav>
+        <ul id="navlist">
+        <a id="navbar" href="#tablesanchor">TABLES</a>
+        <a id="navbar" href="#hoveranchor">HOVER</a>
+        <a id="navbar" href="#media-anchor">MEDIA</a>
+        <a id="navbar" href="#linksanchor">LINKS</a>
+        <a id="navbar" href="#fontsanchor">FONTS</a>
+        <a id="navbar" href="#tagsanchor">TAGS</a>
+        </ul>
+    </nav>
+</div>
+
+
+    <!--HEADER-->
+
+<body>
+    <header>
+        <h1>XENO SHIVA'S CHEATSHEET</h1>
+    </header>
+
+
+    <!--INTRODUCTION-->
+
+    <div class="intro">
+        <h2>Here we will practice making a simple website from scratch.</h2>
+        
+        <p>We will demonstrate our ability to;</p>
+        
+        <ol>
+            <li>Set up a base skeleton of a website.</li>
+            <li>Completely style the page using CSS</li>
+            <li>Properly set up a nav bar and link to proper parts of the site</li>
+            <li>Make use of lists (like so)</li>
+            <li>Demonstrate ability to use tables</li>
+            <li>Set up a hover button</li>
+            <li>Link audio, video, images to website, with proper alt</li>
+            <li>Properly link to another website</li>
+            <li>Utilize several fonts from a font provider</li>
+            <li>Provide a table to reference html tags and their uses</li>
+        </ol>
+
+        <br>
+
+        <p><em>Let's begin.</em></p>
+    </div>
+
+
+    
+    <!--TABLES-->
+
+    <div id="tablesanchor"></div>
+
+    <div id="tables">
+        <h3>1. Here we demonstrate our ability to utilize a table.</h3>
+        <p>These are my study/work schedules that I plan to stick to throughout my journey to learning web development</p>
+
+        <table class="study">
+            <thead>
+                <th id="studyhead" colspan="3"><bold>STUDY SCHEDULE</bold></th>
+            </thead>
+                <tr>
+                    <th scope="col">Day</th>    
+                    <th scope="col">Time</th>
+                    <th scope="col">Length</th>
+                </tr>
+                
+                <tr>
+                    <td>Sunday</td>
+                    <td>10pm-2am</td>
+                    <td>4 hrs</td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>10pm-2am</td>
+                    <td>4 hrs</td>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>10pm-2am</td>
+                    <td>4 hrs</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>2pm-6/11pm</td>
+                    <td>4-9hrs</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>2pm-6/11pm</td>
+                    <td>4-9hrs</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>10pm</td>
+                    <td>4 hrs</td>
+                </tr>
+                <tr>
+                    <td>Saturday</th>
+                    <td>10pm-2am</td>
+                    <td>4 hrs</td>
+        </table>
+                <br>
+        <table class="twork">
+            <thead>
+                <th colspan="4" id="workhead"><bold>WORK SCHEDULE</bold></th></thead>
+                    <tbody>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Break</th>
+                        <th scope="col">Hours</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>Sunday</td>
+                        <td>1-8pm</td>
+                        <td>4:30-5pm</td>
+                        <td>7.5 (8 w/o Break)</td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>1-8pm</td>
+                        <td>4:30-5pm</td>
+                        <td>7.5 (8 w/o Break)</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>1-8pm</td>
+                        <td>4:30-5pm</td>
+                        <td>7.5 (8 w/o Break)</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Off</td>
+                        <td>none</td>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Off</td>
+                        <td>none</td>
+                        <td>none</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>1-8pm</td>
+                        <td>4:30-5pm</td>
+                        <td>7.5 (8 w/o Break)</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>1-8pm</td>
+                        <td>4:30-5pm</td>
+                        <td>7.5 (8 w/o Break)</td>
+                    </tr>
+                </tbody>
+        </table>
+        
+        <p><em>As you can see we can confidently show tables with multiples rows and dictate information correctly into proper spaces</em></p>
+    </div>
+
+
+    <!--HOVER-->
+    
+    <div id="hoveranchor"></div>
+
+    <div id="hover">
+        <h3>2. Here we demonstrate our ability to create and style hover buttons/links</h3>
+        <p>This is a utilized link, using hover styling</p>
+        <div id="hover1"><a id="hover2" href="https://www.youtube.com/watch?v=OUypHVSBbqs" target="_blank">Click Me</a></div>
+    </div>
+
+
+    <!--MEDIA-->
+    
+    <div id="media-anchor"></div>
+
+    <div id="media">
+        <h3>3. Here we demonstrate our ability to insert various media. (Images, Videos, Audio)</h3>
+
+        <p>This is a picture of something</p>
+
+        <figure>
+            <img id="pepe" src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg" 
+            alt="actually just a frog..."/>
+            <figcaption>Actually just a frog. (This is a figcaption)</figcaption>
+        </figure>
+
+        <figure>
+            <a id="pepelink" href="https://www.wendys.com" target="_blank"><img id="pepelink" src="https://pbs.twimg.com/media/C1WTTo3XcAMTqvK.png" alt="who knew?"/></a>
+            <figcaption>An image utilized as a link. (click image)</figcaption>
+        </figure>
+
+        <figure>
+            <iframe id="yt" width="30%" height="300"
+            src="https://www.youtube.com/embed/qMPYDQvKaNIcontrols=1">
+            </iframe>
+            <figcaption>Demonstrates ability to insert video</figcaption>
+            <figcaption>(too bad its blocked for some reason)</figcaption>
+        </figure>
+
+        <figure>
+            <iframe id="sc" width="30%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1917012992&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a id="pepesclink1" href="https://soundcloud.com/arsremixupload" title="PEPE" target="_blank" style="color: #000000; text-decoration: none;">PEPE</a> · <a id="pepesclink" href="https://soundcloud.com/arsremixupload/a-loi-crazy-frog-ars-remix" title="À Lôi Crazy Frog - ARS Remix" target="_blank" style="color: #000000; text-decoration: none;">À Lôi Crazy Frog - ARS Remix</a></div>
+            <figcaption>Demonstrates understanding of how to link an audio file from soundcloud</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <iframe id="audiolink" src="https://whyp.it/tracks/embed?id=203001" width="30%" height="100" scrolling="no" frameborder="0"></iframe>
+            <figcaption>Another example of utilizing embed links to play audio</figcaption>
+        </figure>
+    </div>
+
+    <!--LINKS-->
+
+    <div id="linksanchor"></div>
+
+    <div id="links">
+        <h3>4. Utilizing Links.</h3>
+
+            <ul id="linklist">
+                <li><a href="https://www.w3schools.com" target="_blank">A link to my reference materials.</a></li>
+                <li>an <a href="https://www.w3schools.com" target="_blank">example</a> of utilizing links in an existing sentence.</li>
+                <li>also an example of an unordered list</li>
+            </ul>
+    </div>
+    
+    <!--FONTS-->
+
+    <div id="fontsanchor"></div>
+
+    <div id="fonts">
+        <h3>5. Utilizing Fonts</h3>
+        <p>Each of these <span id="fontinsert">fonts</span> are sourced from a provider like google fonts and utilized through css</p>
+        <br>
+        <p id="font1">Lorem ipsum whatever whatever</p>
+        <br>
+        <p id="font2">Lorem ipsum whatever something</p>
+        <br>
+        <p id="font3">Another lorem ipshit whatever</p>
+    </div>
+
+    <!--TAGS-->
+
+    <div id="tagsanchor"></div>
+
+    <div class="tagtable">
+        <h3>6. Here we will provide a table with various html tags and their uses.</h3>
+
+        <table>
+            
+            <thead><th id="htmltagshead" colspan="2"><bold>HTML TAGS</bold></th></thead>
+                
+                <tbody>    
+                    <tr>
+                        <th scope="col">TAG</th>
+                        <th scole="col">USES</th>
+                    </tr>
+                    <tr>
+                        <td>&lt;!DOCTYPE html&gt;</td>
+                        <td>An instruction declaration. It tells the browser what type of document to expect, along with what version of HTML is being used in the document.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>the metadata for a web page. Metadata is information about the page that isn’t displayed directly on the web page. Usually contains links to css stylesheet, and font links.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;title&gt;</td>
+                        <td>Allows you to dictate a title in the tab of the website. Insert in head.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;h1-h6&gt;</td>
+                        <td>h1 used for main headings. All other smaller headings are used for subheadings.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>Short for “division” or a container that divides the page into sections. 
+                            These sections are very useful for grouping elements in your HTML together.</td>
+                    </tr>'
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>The "paragraph" tag. Used to dictate lines of text.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;span&gt;</td>
+                        <td>Short pieces of text or other html. used to seperate small pieces of content that are on the same line as other content.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;em&gt;</td>
+                        <td>Emphasizes text in itallics.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;strong&gt;</td>
+                        <td>Emphasizes text in bold.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>Creates a line break between elements.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td>Unordered list element. will create a list prompt with bullet points.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td>Order list element. Will create a list prompt in a numbered order.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;</td>
+                        <td>Defines the information contained in a list</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;img src="image address link"/&gt;</td>
+                        <td>Allows to insert images to the webpage. Must provide the address link in the defined area. Self closing tag.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;img src="image address link" alt="description"/&gt;</td>
+                        <td>"alt" attribute can add description to your images to aid in diversity and vision impaired. Also utilized in SEO.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;video src="video link" controls&gt;</td>
+                        <td>Allows insertion of videos. Requires closing tag. text between brackets can define text that is displayed if connection can not be made. Usually filled with "Video Not Supported</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>Anchor element. Allows you to utilize links to other webpages, or specific parts of the current page</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Defines the skeleton of a data table</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;th&gt;</td>
+                        <td>Defines the title of the table. Using the "col" attribute we can define the top columns
+                            Using the "row" attribute we can define the left side rows.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Defines the table's rows. Where data can then be inserted.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Defines the row's data. (each section is defined horizonally, requiring a new element for each block)</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Sections off the head of the table in the element family, Making things easier to differentiate.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Sections off the body of the table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfoot&gt;</td>
+                        <td>Sections off the end/bottom of the table. Usually to define the sums of the tables data.</td>
+                    </tr>
+                </tbody>
+        </table>
+
+        <p>This is not an account of all html tages, or attributes, but a brief summary. Reference <span><a href="https://www.w3schools.com/tags/" target="_blank">W3 Schools</a></span> to see a full list.</p>
+    </div>
+</body>
+
+</html>
